@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.homepage-header {
+  background-color: cadetblue;
+  height: 5rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 0 1rem;
+}
+
+.homepage-navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 1.5rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-title {
+  display: flex;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navber-title__short {
+  font-size: 1.75rem;
+}
+
+/* .navber-title__full {
+  margin: auto 0.5rem;
+} */
+
+.navbar-btn {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-btn div {
+  border-radius: 12px;
+  padding: 12px 24px;
+  background-color:lightslategrey;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  cursor: pointer;
+}
+
+.navbar-btn__register {
+  margin-left: 1rem;
+}
+
+.container {
+  max-width: 60%;
+  margin: 5% auto;
+}
+
+.syllabus img {
+  max-width: 100%;
 }
