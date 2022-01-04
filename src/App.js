@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
     return (
-        <>
+        <div>
             {/* header */}
             <section className="homepage-header">
                 <div className="App">
@@ -31,7 +31,7 @@ function App() {
             </section>
             {/* footer */}
             <footer></footer>
-        </>
+        </d>
     );
 }
 
